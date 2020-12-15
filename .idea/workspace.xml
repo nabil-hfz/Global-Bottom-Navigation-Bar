@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global_bottom_navigation_bar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bottom_navigation_bar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bottom_navigation_item.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/global_bottom_navigation_bar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scaffold_bottom_navigation.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tab_item.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/global_bottom_navigation_bar_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,21 +40,30 @@
       <option name="presentableId" value="Default" />
       <updated>1607982695370</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'develop' of https://gitlab.com/Nabil_hfz/release_global_bottom_navigation&#10;with master">
+      <created>1608064482454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608064482454</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit.&#10;author : Nabil." />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit.&#10;author : Nabil." />
+    <MESSAGE value="Merge branch 'develop' of https://gitlab.com/Nabil_hfz/release_global_bottom_navigation&#10;with master" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'develop' of https://gitlab.com/Nabil_hfz/release_global_bottom_navigation&#10;with master" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="26" key="CommitChangelistDialog2" timestamp="1608063666253">
+    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1608064481363">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="360" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608063666253" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608063643205">
+    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608064481363" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608064492555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608063643205" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608064492555" />
     <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608064428311">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
