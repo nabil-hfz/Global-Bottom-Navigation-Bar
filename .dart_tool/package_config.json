@@ -56,18 +56,6 @@
       "languageVersion": "2.2"
     },
     {
-      "name": "flutter_web_plugins",
-      "rootUri": "file:///C:/Users/nabil/AppData/Local/Flutter_sdk_1.9.1/flutter/packages/flutter_web_plugins",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
-      "name": "fluttertoast",
-      "rootUri": "file:///C:/Users/nabil/AppData/Local/Flutter_sdk_1.9.1/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-7.1.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.7"
-    },
-    {
       "name": "matcher",
       "rootUri": "file:///C:/Users/nabil/AppData/Local/Flutter_sdk_1.9.1/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.1",
       "packageUri": "lib/",
@@ -146,7 +134,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-12-14T23:54:09.901441Z",
+  "generated": "2020-12-15T20:20:26.455603Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }

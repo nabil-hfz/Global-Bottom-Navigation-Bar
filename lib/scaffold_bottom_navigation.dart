@@ -1,6 +1,5 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:global_bottom_navigation_bar/tab_item.dart';
 
 import 'bottom_navigation_bar.dart';
@@ -186,24 +185,9 @@ class _ScaffoldGlobalBottomNavigationState
         _selectTab(BottomNavigationTabNumber.FIRST_TAB);
         return false;
       } else {
-        if (currentBackPressTime == null ||
-            now.difference(currentBackPressTime) > Duration(seconds: 2)) {
-          currentBackPressTime = now;
-          Fluttertoast.showToast(
-              msg: "This is Center Short Toast",
-              toastLength: Toast.LENGTH_SHORT,
-              gravity: ToastGravity.BOTTOM,
-              timeInSecForIosWeb: 1,
-              backgroundColor: Colors.red,
-              textColor: Colors.white,
-              fontSize: 16.0);
-
-          return false;
-        } else
           return isFirstRouteInCurrentTab;
       }
     }
-
     return isFirstRouteInCurrentTab;
   }
 
