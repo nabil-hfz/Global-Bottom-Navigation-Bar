@@ -8,7 +8,7 @@ class BottomNavigationItem {
   final AnimationController controller;
 
   ///   Animation Object to design and the animation as you wish.
-  Animation<double> _animation;
+  //Animation<double> _animation;
 
   BottomNavigationItem({
     Color color,
@@ -32,7 +32,8 @@ class BottomNavigationItem {
           label: title != null && title.isNotEmpty ? title : '',
           backgroundColor: color ?? Colors.white70,
         ) {
-    _animation = controller.drive(
+    /*_animation =*/
+        controller.drive(
       CurveTween(
         curve: const Interval(0.1, 1.0, curve: Curves.fastOutSlowIn),
       ),

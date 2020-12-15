@@ -177,7 +177,6 @@ class _ScaffoldGlobalBottomNavigationState
   }
 
   Future<bool> onWillPop() async {
-    DateTime now = DateTime.now();
     final isFirstRouteInCurrentTab =
         !await navigatorKeys[_currentTab].currentState.maybePop();
     if (isFirstRouteInCurrentTab) {

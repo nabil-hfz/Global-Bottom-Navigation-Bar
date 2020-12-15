@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,31 +62,39 @@
       <option name="project" value="LOCAL" />
       <updated>1608067225867</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Editing yaml file.">
+      <created>1608067584580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608067584580</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit.&#10;author : Nabil." />
     <MESSAGE value="Merge branch 'develop' of https://gitlab.com/Nabil_hfz/release_global_bottom_navigation&#10;with master" />
     <MESSAGE value="Editing LICENSE file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing LICENSE file." />
+    <MESSAGE value="Editing yaml file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Editing yaml file." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1608067224873">
+    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1608067583744">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608067224873" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608067230555">
+    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608067583744" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608067588625">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608067230555" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608067588625" />
     <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608064428311">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1608064428311" />
-    <state x="462" y="164" width="611" height="536" key="find.popup" timestamp="1608065263953">
+    <state x="462" y="164" width="611" height="536" key="find.popup" timestamp="1608070786819">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="462" y="164" width="611" height="536" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1608065263953" />
+    <state x="462" y="164" width="611" height="536" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1608070786819" />
   </component>
 </project>

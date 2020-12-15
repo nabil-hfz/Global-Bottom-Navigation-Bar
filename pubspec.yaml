@@ -1,9 +1,6 @@
 name: global_bottom_navigation_bar
-description: Did you try to make Global Bottom Navigation bar to your app and you failed many times
-  Did you spend a lot of hours to do this fancy thing but you never succed.
-  Ok, do not worry, we are here to help and we brought a new library for you simple to use
-  ,scalable to develop and light to integrate.
-version: 0.0.1
+description: Global Bottom Navigation bar simple to integrate.
+version: 0.0.2
 author: nabil.alhfz98@gmail.com, omar.alshyokh@gmail.com
 homepage: https://sites.google.com/d/1G-wQkUwTLMB7b521occzgJfrW5q_gDdB/p/1ARgfE0P7uL76YC_B28Y8sOX3RDnPekPn/edit
 
