@@ -1,16 +1,17 @@
-# Release_Global_Bottom_Navigation
-# global_bottom_navigation_bar
+# Global Bottom Navigation Bar
 
-A new Flutter package.
+
+A new Flutter package that implements Global Bottom Navigation Bar Feature like
+ that one in native development.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Did you try to make Global Bottom Navigation bar to your app and you failed many times
+  Did you spend a lot of hours to do this fancy thing but you never succeed.
+  Ok, do not worry, we are here to help and we brought a new library for you simple to use
+  ,scalable to develop and light to integrate.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
 
+## Developers
+
+The developers are : nabil.alhfz98@gmail.com, omar.alshyokh@gmail.com.
