@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608142452717</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge branch 'main' of https://github.com/nabil-hfz/Global-Bottom-Navigation-Bar into main">
+      <created>1608154680807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608154680807</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -102,21 +109,22 @@
     <MESSAGE value="Editing yaml file." />
     <MESSAGE value="Editing classes." />
     <MESSAGE value="Init commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit." />
+    <MESSAGE value="Merge branch 'main' of https://github.com/nabil-hfz/Global-Bottom-Navigation-Bar into main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/nabil-hfz/Global-Bottom-Navigation-Bar into main" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1608142451785">
+    <state x="360" y="0" key="CommitChangelistDialog2" timestamp="1608154679823">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608142451785" />
+    <state x="360" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608154679823" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1608071655704">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1608071655704" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608142459585">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608154688181">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608142459585" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608154688181" />
     <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608142474617">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -1,8 +1,7 @@
 name: global_bottom_navigation_bar
 description: Global Bottom Navigation bar simple to integrate.
-version: 0.0.2
-author: nabil.alhfz98@gmail.com, omar.alshyokh@gmail.com
-homepage: https://sites.google.com/d/1G-wQkUwTLMB7b521occzgJfrW5q_gDdB/p/1ARgfE0P7uL76YC_B28Y8sOX3RDnPekPn/edit
+version: 0.0.3
+homepage: https://github.com/nabil-hfz/Global-Bottom-Navigation-Bar
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
