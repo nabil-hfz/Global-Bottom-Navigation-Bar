@@ -1,8 +1,8 @@
-## [0.0.3] - TODO: Add release date.
+## [0.0.3] - 12/16/2020.
 Adding Example to the library.
 
+## [0.0.2] - 12/15/2020..
 
-
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 12/14/2020..
 
 
