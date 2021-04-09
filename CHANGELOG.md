@@ -1,3 +1,6 @@
+## [0.0.4] - 12/16/2020.
+Updating the library with latest version of Flutter SDK.
+
 ## [0.0.3] - 12/16/2020.
 Adding Example to the library.
 

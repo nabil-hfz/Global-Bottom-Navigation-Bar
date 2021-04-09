@@ -48,8 +48,6 @@ class ScaffoldGlobalBottomNavigation extends StatefulWidget {
   /// The color of the [Material] widget that underlies the entire Scaffold.
   final Color backgroundColor;
 
-  final bool resizeToAvoidBottomPadding;
-
   /// A bottom navigation bar to display at the bottom of the scaffold.
   final Widget bottomNavigationBar;
 
@@ -90,7 +88,6 @@ class ScaffoldGlobalBottomNavigation extends StatefulWidget {
     this.bottomNavigationBar,
     this.bottomSheet,
     this.backgroundColor,
-    this.resizeToAvoidBottomPadding,
     this.resizeToAvoidBottomInset,
     this.primary = true,
     this.drawerDragStartBehavior = DragStartBehavior.start,
@@ -167,7 +164,6 @@ class _ScaffoldGlobalBottomNavigationState
       persistentFooterButtons: widget.persistentFooterButtons,
       drawerDragStartBehavior: widget.drawerDragStartBehavior,
       resizeToAvoidBottomInset: widget.resizeToAvoidBottomInset,
-      resizeToAvoidBottomPadding: widget.resizeToAvoidBottomPadding,
       drawerEnableOpenDragGesture: widget.drawerEnableOpenDragGesture,
       floatingActionButtonAnimator: widget.floatingActionButtonAnimator,
       floatingActionButtonLocation: widget.floatingActionButtonLocation,
