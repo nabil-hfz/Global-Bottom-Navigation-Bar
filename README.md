@@ -18,7 +18,7 @@ Images:
 
 <img src="https://user-images.githubusercontent.com/44735062/114271334-7ef86500-9a19-11eb-8cb4-a0efd3396bc4.jpg" width="300" height="690"> <img src="https://user-images.githubusercontent.com/44735062/114271341-8c155400-9a19-11eb-9171-28498da8a8d8.jpg" width="300" height="690">
 
-Screen recorder:
+Screen record:
 
 <img src="https://user-images.githubusercontent.com/44735062/114275010-950e2180-9a29-11eb-8eff-04ecfa52e3bf.gif" width="300" height="690">
 

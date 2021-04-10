@@ -149,4 +149,4 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     ),
   ];
 }
-//pub publish --dry-run
+//flutter pub publish --dry-run

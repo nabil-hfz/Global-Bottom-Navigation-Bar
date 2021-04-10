@@ -19,16 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="Task - # Adding title to app bar in first_screen.dart.">
-      <change afterPath="$PROJECT_DIR$/example/lib/elevated_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main/fifth_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/fifth_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main/first_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/first_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main/fourth_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/fourth_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main/second_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/second_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main/third_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/third_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617997496780</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Task - #55325:&#10;&#10;# Fixing the example.&#10;# Adding a title to first_screen.dart">
+      <created>1618060740098</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618060740099</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,13 +178,18 @@
     <MESSAGE value="Adding example." />
     <MESSAGE value="Adding example V2." />
     <MESSAGE value="Updating the library with latest Flutter SDK version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating the library with latest Flutter SDK version." />
+    <MESSAGE value="Task - #55325:&#10;&#10;# Fixing the example.&#10;# Adding a title to first_screen.dart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task - #55325:&#10;&#10;# Fixing the example.&#10;# Adding a title to first_screen.dart" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1618059674867">
+    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1618060738429">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="368" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1618059674867" />
+    <state x="368" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1618060738429" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1618063648046">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1618063648046" />
     <state width="1476" height="221" key="GridCell.Tab.0.bottom" timestamp="1618059937548">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -201,17 +206,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1476" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1618059937548" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1618059632227">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1618060744119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1618059632227" />
-    <state x="442" y="221" key="git4idea.merge.GitPullDialog" timestamp="1617997526868">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1618060744119" />
+    <state x="442" y="221" key="git4idea.merge.GitPullDialog" timestamp="1618061594965">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="442" y="221" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1617997526868" />
-    <state x="513" y="334" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1617996888816">
+    <state x="442" y="221" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1618061594965" />
+    <state x="513" y="334" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1618060838789">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="513" y="334" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.864@0.0.1536.864" timestamp="1617996888816" />
+    <state x="513" y="334" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.864@0.0.1536.864" timestamp="1618060838789" />
   </component>
 </project>
