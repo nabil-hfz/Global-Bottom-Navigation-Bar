@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../elevated_button.dart';
 import '../sub/sub_fifth_screen.dart';
 
 class FifthScreen extends StatelessWidget {
@@ -10,20 +11,10 @@ class FifthScreen extends StatelessWidget {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          RaisedButton(
-            padding: EdgeInsets.symmetric(vertical: 12, horizontal: 24),
-            onPressed: () {
-              Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (ctx) => SubFifthScreen()));
-            },
-            child: Text(
-              "Fifth Screen",
-              style: TextStyle(
-                fontSize: 26,
-                fontWeight: FontWeight.bold,
-                color: Colors.deepOrangeAccent,
-              ),
-            ),
+          ElevatedButtonWidget(
+            title: 'Fifth Screen',
+            color: Colors.deepOrangeAccent,
+            subScreen: SubFifthScreen(),
           ),
         ],
       ),

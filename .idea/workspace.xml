@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="">
+    <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="Task - # Adding title to app bar in first_screen.dart.">
+      <change afterPath="$PROJECT_DIR$/example/lib/elevated_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scaffold_bottom_navigation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scaffold_bottom_navigation.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main/fifth_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/fifth_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main/first_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/first_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main/fourth_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/fourth_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main/second_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/second_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main/third_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main/third_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -114,8 +145,27 @@
       <option name="project" value="LOCAL" />
       <updated>1608155846734</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updating the library with latest Flutter SDK version.">
+      <created>1617997496780</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617997496780</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit.&#10;author : Nabil." />
@@ -127,9 +177,38 @@
     <MESSAGE value="Merge branch 'main' of https://github.com/nabil-hfz/Global-Bottom-Navigation-Bar into main" />
     <MESSAGE value="Adding example." />
     <MESSAGE value="Adding example V2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding example V2." />
+    <MESSAGE value="Updating the library with latest Flutter SDK version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating the library with latest Flutter SDK version." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1618059674867">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="368" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1618059674867" />
+    <state width="1476" height="221" key="GridCell.Tab.0.bottom" timestamp="1618059937548">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1476" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1618059937548" />
+    <state width="1476" height="221" key="GridCell.Tab.0.center" timestamp="1618059937548">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1476" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1618059937548" />
+    <state width="1476" height="221" key="GridCell.Tab.0.left" timestamp="1618059937548">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1476" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1618059937548" />
+    <state width="1476" height="221" key="GridCell.Tab.0.right" timestamp="1618059937548">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1476" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1618059937548" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1618059632227">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1618059632227" />
+    <state x="442" y="221" key="git4idea.merge.GitPullDialog" timestamp="1617997526868">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="442" y="221" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1617997526868" />
     <state x="513" y="334" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1617996888816">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

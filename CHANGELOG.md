@@ -1,3 +1,6 @@
+## [0.0.5] - 12/16/2020.
+Fixing the example.
+
 ## [0.0.4] - 12/16/2020.
 Updating the library with latest version of Flutter SDK.
 
