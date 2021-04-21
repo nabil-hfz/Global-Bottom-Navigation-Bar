@@ -1,4 +1,7 @@
-## [0.0.7] - 04/10/2021.
+## [0.0.8] - 04/22/2021.
+Edit the README.md file and change log file.
+
+## [0.0.7] - 04/22/2021.
 Refactoring the code to migrate to null safety.
 Editing the code structure.
 

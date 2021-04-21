@@ -3,8 +3,7 @@
 A new Flutter package that implements Global Bottom Navigation Bar Feature like
 that one in native development.
  
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=Q4PJXWGESDC6L)
-[![pub.dev](https://img.shields.io/static/v1?label=pub.dev&message=v0.0.6&color=blue)](https://pub.dev/packages/global_bottom_navigation_bar)
+[![pub.dev](https://img.shields.io/static/v1?label=pub.dev&message=v0.0.8&color=blue)](https://pub.dev/packages/global_bottom_navigation_bar)
 
 ## Getting Started
 
@@ -25,3 +24,6 @@ Screen record:
 ## Developers
 
 The developers are : nabil.alhfz98@gmail.com, omar.alshyokh@gmail.com.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=Q4PJXWGESDC6L)
+

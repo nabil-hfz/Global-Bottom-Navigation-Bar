@@ -19,22 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="Task - #55327 Migrate to null-safety:&#10;&#10;# Refactoring the library code to null safety.&#10;# Editing the example to latest code.">
+    <list default="true" id="bd6ebb61-f65d-4e66-aa22-152e580f5da5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/elevated_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/elevated_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bottom_navigation_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/bottom_navigation_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bottom_navigation_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/bottom_navigation_item.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/global_bottom_navigation_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_bottom_navigation_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scaffold_bottom_navigation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/scaffold_bottom_navigation.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tab_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/tab_item.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618068566135</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Task - #55327 Migrate to null-safety:&#10;&#10;# Refactoring the library code to null safety.&#10;# Editing the example to latest code.">
+      <created>1619038713231</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619038713246</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,10 +202,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Task - #55327 Migrate to null-safety:&#10;&#10;# Refactoring the library code to null safety.&#10;# Editing the example to latest code." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1619038499979">
+    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1619038708039">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="368" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1619038499979" />
+    <state x="368" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1619038708039" />
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1618063648046">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -235,10 +230,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1619038603584" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1619038697036">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1619038729040">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1619038697036" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1619038729040" />
     <state x="442" y="221" key="git4idea.merge.GitPullDialog" timestamp="1618068309904">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -247,5 +242,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="513" y="334" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.864@0.0.1536.864" timestamp="1618060838789" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1619038838570">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1619038838570" />
   </component>
 </project>

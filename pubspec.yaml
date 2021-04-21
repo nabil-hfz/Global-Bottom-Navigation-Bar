@@ -1,6 +1,6 @@
 name: global_bottom_navigation_bar
 description: Global Bottom Navigation bar simple to integrate, Also you have the ability to add global App bar with adding an object from app bar in main file when you use this library.
-version: 0.0.7
+version: 0.0.8
 homepage: https://github.com/nabil-hfz/Global-Bottom-Navigation-Bar
 
 environment:
