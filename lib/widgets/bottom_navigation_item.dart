@@ -11,14 +11,13 @@ class BottomNavigationItem {
   //Animation<double> _animation;
 
   BottomNavigationItem({
-    Color color,
-    String title,
-    Duration duration,
-    @required Widget activeIcon,
-    @required Widget inActiveIcon,
-    @required TickerProvider vSync,
-  })  : assert(inActiveIcon != null),
-        assert(activeIcon != null),
+    Color? color,
+    String? title,
+    Duration? duration,
+    required Widget activeIcon,
+    required Widget inActiveIcon,
+    required TickerProvider vSync,
+  })  :
         controller = AnimationController(
           vsync: vSync,
           duration: (duration != null && !duration.isNegative)

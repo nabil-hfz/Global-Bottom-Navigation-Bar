@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 class ElevatedButtonWidget extends StatelessWidget {
   const ElevatedButtonWidget({
-    this.subScreen,
-    this.title,
+    required this.subScreen,
+    required this.title,
     this.color,
   });
 
   final Widget subScreen;
   final String title;
-  final Color color;
+  final Color? color;
 
   @override
   Widget build(BuildContext context) {

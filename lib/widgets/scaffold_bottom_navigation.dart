@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:global_bottom_navigation_bar/tab_item.dart';
 import 'bottom_navigation_bar.dart';
 import 'bottom_navigation_item.dart';
+import 'tab_item.dart';
 
 class ScaffoldGlobalBottomNavigation extends StatefulWidget {
   final bool extendBody;
@@ -17,43 +17,43 @@ class ScaffoldGlobalBottomNavigation extends StatefulWidget {
   final bool extendBodyBehindAppBar;
 
   /// An app bar to display at the top of the scaffold.
-  final PreferredSizeWidget appBar;
+  final PreferredSizeWidget? appBar;
 
   /// A button displayed floating above [body], in the bottom right corner.
-  final Widget floatingActionButton;
+  final Widget? floatingActionButton;
 
   /// Responsible for determining where the [floatingActionButton] should go.
-  final FloatingActionButtonLocation floatingActionButtonLocation;
+  final FloatingActionButtonLocation? floatingActionButtonLocation;
 
   /// Animator to move the [floatingActionButton] to a new [floatingActionButtonLocation].
-  final FloatingActionButtonAnimator floatingActionButtonAnimator;
+  final FloatingActionButtonAnimator? floatingActionButtonAnimator;
 
   /// A set of buttons that are displayed at the bottom of the scaffold.
-  final List<Widget> persistentFooterButtons;
+  final List<Widget>? persistentFooterButtons;
 
   /// A panel displayed to the side of the [body], often hidden on mobile
   /// devices. Swipes in from either left-to-right ([TextDirection.ltr]) or
   /// right-to-left ([TextDirection.rtl])
-  final Widget drawer;
+  final Widget? drawer;
 
   /// A panel displayed to the side of the [body], often hidden on mobile
   /// devices. Swipes in from right-to-left ([TextDirection.ltr]) or
   /// left-to-right ([TextDirection.rtl])
-  final Widget endDrawer;
+  final Widget? endDrawer;
 
   /// The color to use for the scrim that obscures primary content while a drawer is open.
-  final Color drawerScrimColor;
+  final Color? drawerScrimColor;
 
   /// The color of the [Material] widget that underlies the entire Scaffold.
-  final Color backgroundColor;
+  final Color? backgroundColor;
 
   /// A bottom navigation bar to display at the bottom of the scaffold.
-  final Widget bottomNavigationBar;
+  final Widget? bottomNavigationBar;
 
   /// The persistent bottom sheet to display.
-  final Widget bottomSheet;
+  final Widget? bottomSheet;
 
-  final bool resizeToAvoidBottomInset;
+  final bool? resizeToAvoidBottomInset;
 
   /// Whether this scaffold is being displayed at the top of the screen.
   final bool primary;
@@ -63,7 +63,7 @@ class ScaffoldGlobalBottomNavigation extends StatefulWidget {
 
   /// The width of the area within which a horizontal swipe will open the
   /// drawer.
-  final double drawerEdgeDragWidth;
+  final double? drawerEdgeDragWidth;
 
   /// Determines if the [Scaffold.drawer] can be opened with a drag
   /// gesture.
@@ -74,10 +74,10 @@ class ScaffoldGlobalBottomNavigation extends StatefulWidget {
   final bool endDrawerEnableOpenDragGesture;
 
   const ScaffoldGlobalBottomNavigation({
-    Key key,
+    Key? key,
     this.appBar,
-    @required this.listOfChild,
-    @required this.listOfBottomNavigationItem,
+    required this.listOfChild,
+    required this.listOfBottomNavigationItem,
     this.floatingActionButton,
     this.floatingActionButtonLocation,
     this.floatingActionButtonAnimator,
@@ -97,13 +97,11 @@ class ScaffoldGlobalBottomNavigation extends StatefulWidget {
     this.drawerEnableOpenDragGesture = true,
     this.endDrawerEnableOpenDragGesture = true,
   })  : assert(
-            listOfChild != null &&
                 (listOfChild.length > 1 || listOfChild.length <= 6),
             'You should provide a valid list. This list must not be null and '
             'also number of widgets have to be '
             'between 2 and 6 widgets at max'),
         assert(
-            listOfBottomNavigationItem != null &&
                 (listOfBottomNavigationItem.length > 1 ||
                     listOfBottomNavigationItem.length <= 6),
             'You should provide a valid list. This list must not be null and '
@@ -123,7 +121,7 @@ class ScaffoldGlobalBottomNavigation extends StatefulWidget {
 class _ScaffoldGlobalBottomNavigationState
     extends State<ScaffoldGlobalBottomNavigation>
     with TickerProviderStateMixin {
-  DateTime currentBackPressTime;
+  DateTime? currentBackPressTime;
   BottomNavigationTabNumber _currentTab = BottomNavigationTabNumber.FIRST_TAB;
   Map<BottomNavigationTabNumber, GlobalKey<NavigatorState>> navigatorKeys = {};
   List<Widget> _list = [];
@@ -173,7 +171,7 @@ class _ScaffoldGlobalBottomNavigationState
 
   Future<bool> onWillPop() async {
     final isFirstRouteInCurrentTab =
-        !await navigatorKeys[_currentTab].currentState.maybePop();
+        !await navigatorKeys[_currentTab]!.currentState!.maybePop();
     if (isFirstRouteInCurrentTab) {
       if (_currentTab != BottomNavigationTabNumber.FIRST_TAB) {
         _selectTab(BottomNavigationTabNumber.FIRST_TAB);
@@ -207,7 +205,7 @@ class _ScaffoldGlobalBottomNavigationState
   }
 
   void _selectTab(BottomNavigationTabNumber tabItem) {
-    navigatorKeys[_currentTab].currentState.popUntil((route) => route.isFirst);
+    navigatorKeys[_currentTab]!.currentState!.popUntil((route) => route.isFirst);
     if (tabItem != _currentTab)
       setState(() {
         _currentTab = tabItem;

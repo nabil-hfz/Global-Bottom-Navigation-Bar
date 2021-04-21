@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:global_bottom_navigation_bar/tab_item.dart';
+import 'tab_item.dart';
 import 'bottom_navigation_item.dart';
 
 class GlobalBottomNavigationBar extends StatefulWidget {
   const GlobalBottomNavigationBar({
-    this.currentTab,
+    required this.currentTab,
     this.navigationViews = const [],
     this.type = BottomNavigationBarType.shifting,
-    this.onSelectTab,
-    this.tickerProvider,
+    required this.onSelectTab,
+    required this.tickerProvider,
   });
 
   final List<BottomNavigationItem> navigationViews;
